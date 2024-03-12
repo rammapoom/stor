@@ -1,0 +1,82 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+FormatException: FormatException: Invalid empty scheme (at character 1)
+:fonts\PermanentMarker-Regular.ttf
+^
+
+
+```
+#0      _Uri._fail (dart:core/uri.dart:1734:5)
+#1      new _Uri.notSimple (dart:core/uri.dart:1598:9)
+#2      Uri.parse (dart:core/uri.dart:1138:17)
+#3      FlutterManifest._extractFonts (package:flutter_tools/src/flutter_manifest.dart:328:15)
+#4      FlutterManifest.fonts (package:flutter_tools/src/flutter_manifest.dart:299:33)
+#5      FlutterManifest.fonts (package:flutter_tools/src/flutter_manifest.dart)
+#6      ManifestAssetBundle._parseAssets (package:flutter_tools/src/asset.dart:882:45)
+#7      ManifestAssetBundle.build (package:flutter_tools/src/asset.dart:267:54)
+<asynchronous suspension>
+#8      ResidentWebRunner._updateDevFS (package:flutter_tools/src/isolated/resident_web_runner.dart:531:26)
+<asynchronous suspension>
+#9      ResidentWebRunner.run.<anonymous closure> (package:flutter_tools/src/isolated/resident_web_runner.dart:319:41)
+<asynchronous suspension>
+#10     asyncGuard.<anonymous closure> (package:flutter_tools/src/base/async_guard.dart:111:24)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.19.1, on Microsoft Windows [Version 10.0.22631.3155], locale th-TH)
+    [32m•[39m Flutter version 3.19.1 on channel stable at C:\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision abb292a07e (3 weeks ago), 2024-02-20 14:35:05 -0800
+    [32m•[39m Engine revision 04817c99c9
+    [32m•[39m Dart version 3.3.0
+    [32m•[39m DevTools version 2.31.1
+
+[32m[✓][39m Windows Version (Installed version of Windows is version 10 or higher)
+
+[32m[✓][39m Android toolchain - develop for Android devices (Android SDK version 34.0.0)
+    [32m•[39m Android SDK at C:\Users\User\AppData\Local\Android\sdk
+    [32m•[39m Platform android-34, build-tools 34.0.0
+    [32m•[39m Java binary at: C:\Program Files\Android\Android Studio1\jbr\bin\java
+    [32m•[39m Java version OpenJDK Runtime Environment (build 17.0.7+0-b2043.56-10550314)
+    [32m•[39m All Android licenses accepted.
+
+[32m[✓][39m Chrome - develop for the web
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[32m[✓][39m Visual Studio - develop Windows apps (Visual Studio Community 2022 17.8.4)
+    [32m•[39m Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
+    [32m•[39m Visual Studio Community 2022 version 17.8.34408.163
+    [32m•[39m Windows 10 SDK version 10.0.22621.0
+
+[32m[✓][39m Android Studio (version 2023.1)
+    [32m•[39m Android Studio at C:\Program Files\Android\Android Studio1
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [32m•[39m Java version OpenJDK Runtime Environment (build 17.0.7+0-b2043.56-10550314)
+
+[32m[✓][39m VS Code (version 1.87.1)
+    [32m•[39m VS Code at C:\Users\User\AppData\Local\Programs\Microsoft VS Code
+    [32m•[39m Flutter extension version 3.84.0
+
+[32m[✓][39m Connected device (3 available)
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.22631.3155]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 122.0.6261.112
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 122.0.2365.80
+
+[32m[✓][39m Network resources
+    [32m•[39m All expected network resources are available.
+
+[32m•[39m No issues found!
+```
