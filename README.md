@@ -1,16 +1,7 @@
 # project
 
-A new Flutter project.
+Prototype : https://www.figma.com/file/no8RPEQBEKMJ8M9eIJwx9r/project?type=design&node-id=0%3A1&mode=design&t=66WDhpWuKBX6zQju-1
 
-## Getting Started
+Detail : app1 store เป็นแอปพลิเคชันร้านค้า เเบบง่ายๆ เเบบง่ายมากๆ โดยจะเริ่มจากหน้าล๊อคอินมีการตรวจสอบ username เเละ password สามารถดูรายละเอียดสินค้าได้ฟิลเตอร์ราคาจากน้อย-มากหรือมาก-น้อย ได้เเละเมื่อกดสั่งซื้อสินค้าจะถูกส่งไปยังหน้าตะกร้าสินค้าสามารถเพิ่มหรือลดจำนวนสินค้าเเละชำระเงินได้ มีหน้าโปรไฟล์เพื่อดูรายละเอียดของตัวเองเเละออกจากระบบ สร้างโดยใช้ Flutter , dart ในการทำ เพื่อเป็นส่วนหนึ่งในการเรียนวิชา (66/2) 225323[1] การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์เคลื่อนที่ Sec.1 มหาวิทยาลัยพะเยา
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+คลิปอธิบายการทำงานของโปรแกรม :https://youtu.be/EAl875vbR-Q?si=ju-iUq-s-SeZrUfL
